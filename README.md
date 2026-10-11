@@ -1,32 +1,61 @@
-# Siddharth Verma — Student & Researcher Portfolio
+# Siddharth Verma
 
-Responsive dark-premium portfolio built with Next.js, Tailwind CSS, Firebase Authentication, and Cloud Firestore.
+### Student • Aspiring AI Researcher • Young Innovator
 
-## Features
-- Intro, academics, skills, and editable project cards.
-- Type `1321` on the public page (not while focused in an input) to reveal admin sign-in.
-- Admin label `siddV`; portfolio content editor supports profile, academic data, skills, and project CRUD.
-- Firestore writes are restricted by database security rules to one verified admin email.
+I am Siddharth Verma, a Class 10 student (Session 2026–27) from India, interested in Artificial Intelligence, Computer Science, research, and entrepreneurship.
 
-## Security
-The keyboard sequence is only a hidden convenience, not authentication. Anyone can inspect client-side code. Firebase Authentication and Firestore rules are the actual security boundary. `siddV` maps to the one configured Firebase admin email. The requested password `1321` is not hardcoded: it is too short for Firebase Email/Password authentication (minimum 6 characters). Set a strong unique password for the Firebase account. Never place passwords or service-account keys in frontend code.
+My goal is to develop the knowledge and practical skills required to build meaningful technology, solve real-world problems, and contribute to the future of AI.
 
-## Setup
-1. Install Node.js 20.9+ (Node 22 LTS recommended).
-2. Run `npm install`.
-3. Copy `.env.example` to `.env.local` and fill in the web-app config from Firebase Console.
-4. In Firebase Console, enable Authentication → Email/Password.
-5. Create the one admin user using `NEXT_PUBLIC_ADMIN_EMAIL`; set a strong password and verify the email.
-6. Create a Firestore database.
-7. Copy `firestore.rules` into Firestore Rules, replace `REPLACE_WITH_ADMIN_EMAIL` with the exact admin email, and publish.
-8. Restart the dev server: `npm run dev`.
-9. Visit http://localhost:3000, type `1321`, and sign in as `siddV` using the configured admin account password.
-10. Run `npm run build` to check production compilation.
+## 🎓 About Me
 
-Windows PowerShell copy command:
-`Copy-Item .env.example .env.local`
+- **Name:** Siddharth Verma
+- **Class:** 10
+- **Academic Session:** 2026–27
+- **Location:** India
+- **Primary Interests:** Artificial Intelligence, Machine Learning, Computer Science, Robotics, and Entrepreneurship
+- **Long-Term Goal:** Pursue higher education in AI and Machine Learning and work on impactful technological research.
 
-## Deploy to Vercel
-Push to GitHub, import into Vercel, add all `.env.local` values in Project Settings → Environment Variables, deploy, and verify the Firestore rules use the correct admin email.
+## 🔬 Areas of Interest
 
-Saved content is stored in Firestore document `portfolio/main`. The app uses starter content until that document is saved. Replace placeholder project links and review every claim before public launch. Do not publish your home address, student admission number, or private contact details.
+- Artificial Intelligence and Machine Learning
+- Software Development and Problem-Solving
+- Robotics and Intelligent Systems
+- Sustainability and Environmental Innovation
+- Entrepreneurship and Social Impact
+- Research, Experimentation, and Continuous Learning
+
+## 🚀 Selected Projects
+
+### RecycleLoop
+A sustainability-focused school project exploring ways to upcycle stationery waste and encourage students to participate in creative reuse.
+
+### Title Pilot
+A software concept focused on helping independent car dealers manage vehicle title-related workflows.
+
+### LEAK Analyzer
+A financial analysis project designed to identify spending patterns and potential areas of unnecessary expenditure from bank statement data.
+
+### MicroBiz OS
+A concept for helping small and informal businesses maintain digital records and build better financial visibility.
+
+### AQUASHIELD AI
+A water-monitoring concept exploring the combination of artificial intelligence, connected sensors, and real-time environmental data.
+
+### Rural Fresh
+A concept exploring solar-powered cold storage to help reduce post-harvest losses and improve access to storage facilities in rural areas.
+
+## 🧠 My Approach
+
+I believe in learning by building, testing ideas, studying problems, and improving through iteration. I am interested not only in understanding how technology works, but also in discovering where it can create practical value.
+
+My current focus is on strengthening my academic foundation, improving my programming skills, and turning early-stage ideas into useful projects.
+
+## 🎯 Future Vision
+
+I aspire to grow into a skilled AI researcher and engineer capable of developing intelligent systems that address meaningful challenges.
+
+I see every project as an opportunity to learn, experiment, and move closer to that goal.
+
+---
+
+*Learning today. Building for tomorrow.*
